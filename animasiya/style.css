@@ -1,0 +1,101 @@
+
+section{
+    width: 500px;
+    height: 400px;
+    display:flex;
+    
+
+}
+
+
+.box11{
+    
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    position: relative;
+    
+
+}
+.box111{
+    width: 100px;
+    height:100px;
+    background-color: rgb(235, 29, 29);
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+}
+.box12{
+    
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    z-index: 1;
+    position: relative;
+    
+}
+.box121{
+    width: 100px;
+    height:100px;
+    background-color: brown;
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+.box21{
+    
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    z-index: 1;
+    position: relative;
+}
+.box211{
+    width: 100px;
+    height:100px;
+    background-color: rgb(19, 47, 207);
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+}
+.box22{
+
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    z-index: 1;
+    position: relative;
+}
+.box221{
+    width: 100px;
+    height:100px;
+    background-color: rgb(101, 189, 18);
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+section:hover .box1 .box11{
+    transform: rotate(90deg);
+    
+    
+}
+section:hover .box1 .box12{
+    transform: rotate(-90deg);
+}
+section:hover .box2 .box21{
+    transform: rotate(-90deg);
+}
+section:hover .box2 .box22{
+    transform: rotate(90deg);
+    
+}
+.text{
+    position: absolute;
+    left:12%;
+    top:28%;
+    z-index: 1;
+}
