@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height:100vh;
+}
+.box1 { grid-area: a; }
+.box2 { grid-area: b; }
+.box3 { grid-area: c; }
+.box4 { grid-area: d; }
+.box5 { grid-area: e; }
+.box6 { grid-area: f; }
+.box{
+    display: grid;
+    grid-template-areas:
+      'a a a a a a a'
+      'c c b b b e e'
+      'c c d d d e e'
+      'c c d d d e e'
+      'f f f f f f f';
+    gap: 10px;
+    width: 90%;
+    height:90%;
+    margin: 40px auto;
+}
+.box div{
+    border: 4px solid;
+}
