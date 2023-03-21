@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.bar{
+    display: flex;
+    width: 100vw;
+    height: 13vh;
+    background-color:rgb(255, 242, 205);
+    align-items: center;
+    position: fixed;
+    font-family:sans-serif;
+}
+.box{
+    padding-right: 130px;
+}
+.box1{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 a{
+    color: rgb(89, 89, 89);
+}
+.box1 a:hover{
+    color: orange;
+    transition: 350ms;
+}
+.box2{
+    list-style: none;
+}
+.box3{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.name{
+    padding-left: 130px;
+    font-size: xx-large;
+    text-shadow: 1px 0px 2px #000000;
+}
+.name::after{
+    content: "Shafi";
+    color: orange;
+}
+.page1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(255, 242, 205);
+}
+.common1{
+    padding-left: 175px;
+    padding-top: 90px;
+}
+
+
+.img1{
+    border: 2px solid orange;
+    padding-right: 230px;
+    padding-top: 350px;
+    border-radius: 2%;
+}
+.right{
+    width:40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bord{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    position: absolute;
+    left:10%;
+    top:0;
+
+    
+}
+.img2 img{
+    border-radius: 2%;
+}
+.list1{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 43);
+}
+.list1::before{
+    content: "I'm";
+    text-decoration: overline;
+    text-decoration-color:orange;
+    text-decoration-thickness:3px;
+}
+.list2{
+    color: rgb(96, 96, 96);
+}
+.list3{
+    padding-top: 35px;
+}
+.list3 a:link, a:visited{
+    background-color: orange;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    border-radius: 9%;
+    font-size: 15px;
+}
+.list3 a:hover, a:active {
+    background-color: rgb(255, 214, 91);
+    transition: 300ms;
+  }
+.list4{
+    padding-top: 40px;
+    font-size: 25px;
+}
+.list4 a:hover, a:active{
+    color: rgb(255, 214, 91);
+    transition: 200ms;
+}
